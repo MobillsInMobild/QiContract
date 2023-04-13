@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <ImageView
+        android:layout_marginHorizontal="135dp"
+        android:layout_marginTop="100dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/tab_sign_selector" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="310dp"
+        >
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/hash_pic_1"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:text="交易哈希：" />
+        <TextView
+            android:id="@+id/hash"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:enabled="true"
+            android:textIsSelectable="true"
+            android:focusable="true"
+            android:longClickable="true"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="390dp"
+        >
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/hash_pic_2"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:text="合同地址：" />
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:enabled="true"
+            android:textIsSelectable="true"
+            android:focusable="true"
+            android:longClickable="true"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="470dp"
+        >
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/hash_pic_3"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:text="合同ID：" />
+        <TextView
+            android:id="@+id/ID"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:enabled="true"
+            android:textIsSelectable="true"
+            android:focusable="true"
+            android:longClickable="true"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/create_success_btn"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="530dp"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text = "返回"
+        android:textSize="18dp"
+        android:textColor="@color/design_default_color_on_primary"
+        android:background="@drawable/translucent_button"/>
+</FrameLayout>

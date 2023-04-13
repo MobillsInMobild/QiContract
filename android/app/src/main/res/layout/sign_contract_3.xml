@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/design_default_color_on_primary"
+    tools:context=".MainActivity">
+    <com.daimajia.numberprogressbar.NumberProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="-25dp"
+        app:progress_reached_bar_height="10dp"
+        app:progress_unreached_bar_height="10dp"
+        app:progress_current="60"/>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="55dp"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:text="合同ID："/>
+        <TextView
+            android:id="@+id/contact_id_4"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textSize="24dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <com.github.gcacace.signaturepad.views.SignaturePad
+        android:id="@+id/signature_pad"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        app:penColor="@android:color/black" />
+
+
+    <Button
+        android:id="@+id/next_tap_4"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="签字验证"
+        android:textColor="@color/design_default_color_on_primary"
+        android:background="@drawable/translucent_button"/>
+</LinearLayout>

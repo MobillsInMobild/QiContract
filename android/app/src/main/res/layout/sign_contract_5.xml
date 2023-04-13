@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <com.daimajia.numberprogressbar.NumberProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="-25dp"
+        app:progress_reached_bar_height="10dp"
+        app:progress_unreached_bar_height="10dp"
+        app:progress_current="100"/>
+<TextView
+    android:layout_width="100dp"
+    android:layout_height="30dp"
+    android:layout_marginTop="70dp"
+    android:layout_marginLeft="125dp"
+    android:textSize="24sp"
+    android:textColor="@android:color/black"
+    android:text="签署成功"/>
+
+        <Button
+            android:id="@+id/getPDF"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+            android:text="获取PDF"
+            android:visibility="invisible"
+            android:textSize="16dp"
+            android:background="@drawable/translucent_button"
+            android:textColor="@color/design_default_color_on_primary" />
+        <Button
+            android:id="@+id/getPDFOffline"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="80dp"
+            android:text="本地打开"
+            android:textSize="16dp"
+            android:background="@drawable/translucent_button"
+            android:textColor="@color/design_default_color_on_primary"/>
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/sign_success"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="80dp"
+            android:text="返回"
+            android:textSize="16dp"
+            android:background="@drawable/translucent_button"
+            android:textColor="@color/design_default_color_on_primary"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:id="@+id/filePath"
+        android:visibility="invisible"/>
+
+</LinearLayout>

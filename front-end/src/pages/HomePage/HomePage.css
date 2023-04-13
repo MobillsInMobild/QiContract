@@ -1,0 +1,61 @@
+@import '~antd/dist/antd.css';
+
+.Homepage {
+  text-align: center;
+}
+
+.Homepage-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Homepage-logo {
+    animation: Homepage-logo-spin infinite 20s linear;
+  }
+}
+
+.Homepage-header {
+  background-image: url(https://img0.baidu.com/it/u=206818258,2204156867&fm=26&fmt=auto&gp=0.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ffffff;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 3vmin);
+  color: #ffffff;
+}
+
+.Homepage-link {
+  color: #61dafb;
+}
+
+.HomePage-btn {
+  border-radius: 10px;
+  height: 80px;
+  width: 180px;
+  font-size: xx-large;
+  line-height: 9px;
+  background: #070000;
+  border-color: #fdfdfd;
+  opacity: 0.7;
+}
+
+.site-page-header-ghost-wrapper {
+  padding: 24px;
+  background-color: #4b4949;
+  color: #ffffff;
+}
+
+@keyframes Homepage-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

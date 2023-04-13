@@ -1,0 +1,56 @@
+Date : 2021-07-19 09:34:08
+Directory : e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar
+Total : 25 files,  1762 codes, 93 comments, 276 blanks, all 2131 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Java     |         25 |      1,762 |         93 |        276 |      2,131 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                 | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                    |         25 |      1,762 |         93 |        276 |      2,131 |
+| DBHelper                                                                                                             |          1 |         63 |          4 |          9 |         76 |
+| HttpTools                                                                                                            |          1 |         83 |          0 |         16 |         99 |
+| Utils                                                                                                                |          6 |        209 |         59 |         41 |        309 |
+| contract                                                                                                             |          1 |        133 |          9 |         29 |        171 |
+| fragment                                                                                                             |         12 |        960 |          2 |        121 |      1,083 |
+| fragment\component                                                                                                   |          4 |         88 |          0 |         13 |        101 |
+| style2                                                                                                               |          1 |        162 |          4 |         33 |        199 |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                             | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\BlankFragment.java                         | Java     |         35 |         15 |         13 |         63 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\DBHelper\DBHelper.java                     | Java     |         63 |          4 |          9 |         76 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\HttpTools\Session.java                     | Java     |         83 |          0 |         16 |         99 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\MainActivity.java                          | Java     |        107 |          0 |         10 |        117 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\SignActivity.java                          | Java     |         10 |          0 |          4 |         14 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\Utils\BaseFragmentPagerAdapter.java        | Java     |        116 |         59 |         23 |        198 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\Utils\FragmentChanger.java                 | Java     |         41 |          0 |          7 |         48 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\Utils\ProjectUtils.java                    | Java     |          9 |          0 |          0 |          9 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\Utils\bitmapHelper.java                    | Java     |         33 |          0 |          6 |         39 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\Utils\newFragment.java                     | Java     |          5 |          0 |          3 |          8 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\Utils\nextFragment.java                    | Java     |          5 |          0 |          2 |          7 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\contract\ShareSecret.java                  | Java     |        133 |          9 |         29 |        171 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\component\createFragment.java     | Java     |          7 |          0 |          3 |         10 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\component\signFragment.java       | Java     |          7 |          0 |          2 |          9 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\component\switchableFragment.java | Java     |         67 |          0 |          6 |         73 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\component\welcomeFragment.java    | Java     |          7 |          0 |          2 |          9 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\create.java                       | Java     |         98 |          0 |         10 |        108 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\createNotify.java                 | Java     |         38 |          0 |          9 |         47 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\sign_stepfive.java                | Java     |        131 |          2 |         21 |        154 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\sign_stepfour.java                | Java     |        185 |          0 |         21 |        206 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\sign_stepone.java                 | Java     |         92 |          0 |         10 |        102 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\sign_stepthree.java               | Java     |         86 |          0 |          9 |         95 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\sign_steptwo.java                 | Java     |         87 |          0 |         10 |         97 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\welcome.java                      | Java     |        155 |          0 |         18 |        173 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\style2\Style2Activity.java                 | Java     |        162 |          4 |         33 |        199 |
+| Total                                                                                                                |          |      1,762 |         93 |        276 |      2,131 |
++----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

@@ -1,0 +1,37 @@
+Date : 2021-07-19 09:36:38
+Directory : e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment
+Total : 12 files,  960 codes, 2 comments, 121 blanks, all 1083 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Java     |         12 |        960 |          2 |        121 |      1,083 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                 | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                    |         12 |        960 |          2 |        121 |      1,083 |
+| component                                                                                                            |          4 |         88 |          0 |         13 |        101 |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                             | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\component\createFragment.java     | Java     |          7 |          0 |          3 |         10 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\component\signFragment.java       | Java     |          7 |          0 |          2 |          9 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\component\switchableFragment.java | Java     |         67 |          0 |          6 |         73 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\component\welcomeFragment.java    | Java     |          7 |          0 |          2 |          9 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\create.java                       | Java     |         98 |          0 |         10 |        108 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\createNotify.java                 | Java     |         38 |          0 |          9 |         47 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\sign_stepfive.java                | Java     |        131 |          2 |         21 |        154 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\sign_stepfour.java                | Java     |        185 |          0 |         21 |        206 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\sign_stepone.java                 | Java     |         92 |          0 |         10 |        102 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\sign_stepthree.java               | Java     |         86 |          0 |          9 |         95 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\sign_steptwo.java                 | Java     |         87 |          0 |         10 |         97 |
+| e:\basic_network\Contract\android\app\src\main\java\com\afei\bottomtabbar\fragment\welcome.java                      | Java     |        155 |          0 |         18 |        173 |
+| Total                                                                                                                |          |        960 |          2 |        121 |      1,083 |
++----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
